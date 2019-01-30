@@ -59,12 +59,12 @@
 <script>
 import Vue from 'vue'
 import nprogress from 'nprogress'
-import Home from './Home.vue'
-import Navbar from './Navbar.vue'
-import Page from './Page.vue'
-import Sidebar from './Sidebar.vue'
-import SWUpdatePopup from './SWUpdatePopup.vue'
-import { resolveSidebarItems } from './util'
+import Navbar from './components/Navbar.vue'
+import Sidebar from './components/Sidebar.vue'
+import SWUpdatePopup from './components/SWUpdatePopup.vue'
+import Home from './layouts/Home.vue'
+import Page from './layouts/Page.vue'
+import { resolveSidebarItems } from './helpers/util'
 
 export default {
   components: { Home, Page, Sidebar, Navbar, SWUpdatePopup },
